@@ -11,7 +11,7 @@ body, ul, li, h1, h2, a {
 }
 
 header {
-    background-color: #F63232;
+    background-color: #ff981a;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -79,7 +79,7 @@ nav li a {
 }
 
 nav li a.join {
-    color: #F63232;
+    color: #ff981a;
 }
 main {
     max-width: 100%;
@@ -90,7 +90,7 @@ main {
 }
 
 article h2 {
-    color: #F63232;
+    color: #ff981a;
     font-size: 48px;
 }
 
@@ -134,7 +134,7 @@ form input{
 }
 
 footer{
-    background: #F63232;
+    background: #ff981a;
     color: white;
     padding: 10px;
     text-align: center;
@@ -162,12 +162,8 @@ form input:valid{
 
 /* Psuedo Elements */
 
-article p::first-line{
-    font-weight: bold;
-    font-size: 1.2em;
-}
 p::selection{
-    background-color: #F63232;
+    background-color: #ff981a;
     color: white;
 }
 
